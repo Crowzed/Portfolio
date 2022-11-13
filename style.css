@@ -1,0 +1,416 @@
+@font-face {
+    font-family: Caviar;
+    src: url();
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.logo {
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 13px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    line-height: 160.00px;
+    letter-spacing: 0.96px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Poppins, Arial;
+    white-space: pre-wrap;
+    top: -38px;
+    left: 160px;
+}
+
+ul{
+    display: flex;
+    margin-left: 40%;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li {
+    padding-left: 50px;
+    font-size: 18.00px;
+    font-weight: 300;
+    font-style: normal;
+    font-family: Poppins, Arial;
+    color: white;
+    letter-spacing: 0.00px;
+    text-align: left;
+}
+nav{
+    padding-top: 33px;
+    background-image: linear-gradient(gray, black);
+    height: 15%;
+    width: 100%;
+}
+.navbox{
+    position: absolute;
+    box-sizing: content-box;
+    opacity: 1;
+    cursor: default;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: rgba(255, 73, 0, 1);
+    border-bottom-color: rgba(112, 112, 112, 1);
+    border-bottom-style: none;
+    border-bottom-width: 1px;
+    border-left-color: rgba(112, 112, 112, 1);
+    border-left-style: none;
+    border-left-width: 1px;
+    border-right-color: rgba(112, 112, 112, 1);
+    border-right-style: none;
+    border-right-width: 1px;
+    border-top-color: rgba(112, 112, 112, 1);
+    border-top-style: none;
+    border-top-width: 1px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: none;
+    width: 119px;
+    height: 110px;
+    top: 0px;
+    left: 35%;
+}
+.about-me {
+    padding-left: 15px;
+    transform: translateY(180%);
+}
+.mywork {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid white;
+    color: white;
+    padding: 27px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-left: 40px;
+}
+.cvdownload {
+    background-color: white;
+    padding: 25px 10px;
+    border: 1px solid white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-left: 10%;
+}
+.cvdownload a{
+    color: black;
+}
+.hire-me{
+    background-color: rgba(255, 73, 0, 1);
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 12px;
+    margin: -20px 50px;
+}
+
+.MrCentrico {
+    position: absolute;
+    text-align: left;
+    line-height: 160.00px;
+    letter-spacing: 0.96px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Poppins, Arial;
+    top: 200px;
+    left: 130px;
+}
+.headerdesc {
+    text-align: left;
+    letter-spacing: 0.96px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 130px;
+    font-weight: 100;
+    margin-top: 16%;
+}
+.muka{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 60%;
+}
+.aboutme{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 27px 35px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 250px 250px 0px 250px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-left: 100px;
+}
+.aboutme .aboutme-title{
+    text-decoration: underline;
+    font-weight: 300;
+    font-size: 45;
+}
+.aboutme p {
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.myskills{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 300;
+    font-size: 45;
+}
+.myskills2{
+    margin-left: 690px;
+    font-weight: 300;
+    margin-top: 50px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.photoshopbar{
+    background: linear-gradient(to right, white, rgba(255, 73, 0, 1)75%, gray 50%);
+    width: 90%;
+    height: 20px;
+    border: 1px solid #000;
+    box-shadow: 0 0 5px #000;
+    margin: 10px 0;
+    margin-top: 10px;
+}
+.photographybar {
+    background: linear-gradient(to right, white, rgba(255, 73, 0, 1)70%, gray 50%);
+    width: 90%;
+    height: 20px;
+    border: 1px solid #000;
+    box-shadow: 0 0 5px #000;
+    margin: 10px 0;
+    margin-top: 10px;
+}
+.editingbar {
+    background: linear-gradient(to right, white, rgba(255, 73, 0, 1)80%, gray 50%);
+    width: 90%;
+    height: 20px;
+    border: 1px solid #000;
+    box-shadow: 0 0 5px #000;
+    margin: 10px 0;
+    margin-top: 10px;
+}
+.webdevelopingbar{
+    background: linear-gradient(to right, white, rgba(255, 73, 0, 1)90%, gray 50%);
+    width: 90%;
+    height: 20px;
+    border: 1px solid #000;
+    box-shadow: 0 0 5px #000;
+    margin: 10px 0;
+    margin-top: 10px;
+}
+.portfolio-title {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 300;
+    font-size: 45;
+}
+.img1 {
+    scale: 40%;
+    margin-left: -160px;
+    margin-top: -190px;
+}
+.img2{
+    scale: 40%;
+    margin-top: -763px;
+    margin-left: 417px;
+}
+.img3{
+    scale: 40%;
+    margin-top: -820px;
+    margin-left: -157px;
+}
+.img4{
+        scale: 40%;
+        margin-top: -1564px;
+        margin-left: 373px;
+}
+.img5{
+    scale: 40%;
+    margin-top: -1131px;
+    margin-left: 387px;
+}
+.line{
+    border-left: 3px solid white;
+    height: 10%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 370%;
+}
+.our-services{
+    margin-top: -260;
+    text-align: center;
+    font-size: 20;
+}
+.our-services p{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: 250;
+    font-size: 18;
+}
+
+.services-button   {
+    margin-left: 180px;
+}
+
+.services1 button{
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    padding: 2.5rem 6rem;
+    color: black;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, white, rgba(255, 73, 0, 1));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #111111 inset;
+    
+}
+
+.first-column{
+    display: flex;
+    margin-top: 100px;
+}
+
+.services2{
+    padding-left: 50px;
+}
+.services2 button{
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    padding: 2.5rem 6rem;
+    color: black;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, rgba(255, 73, 0, 1), white);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #111111 inset;
+}
+.services3{
+    padding-left: 50px;
+}
+.services3 button{
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    padding: 2.5rem 6rem;
+    color: black;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, white, rgba(255, 73, 0, 1));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #111111 inset;
+}
+.second-column{
+    display: flex;
+    margin-top: 80px;
+}
+.services4{
+    padding-left: 50px;
+}
+.services4 button{
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    padding: 2.5rem 6rem;
+    color: black;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, rgba(255, 73, 0, 1), white);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #111111 inset;
+}
+
+.services5{
+    padding-left: 50px;
+}
+.services5 button{
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    padding: 2.5rem 6rem;
+    color: black;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, white, rgba(255, 73, 0, 1));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #111111 inset;
+}
+.services6{
+    padding-left: 50px;
+}
+.services6 button{
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    padding: 2.5rem 6rem;
+    color: black;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, rgba(255, 73, 0, 1), white);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #111111 inset;
+}
+
+.view-all button{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid white;
+    color: white;
+    padding: 27px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 100px -200px;
+    cursor: pointer;
+    border-radius: 12px;   
+}
