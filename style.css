@@ -321,7 +321,7 @@ nav{
     border-radius: 10px;
     padding: 1rem;
     font-size: 1.5rem;
-    padding: 2.5rem 6rem;
+    padding: 2.5rem 9rem;
     color: black;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
     border: solid 3px transparent;
@@ -351,13 +351,13 @@ nav{
     margin-top: 80px;
 }
 .services4{
-    padding-left: 50px;
+    margin-left: 50px;
 }
 .services4 button{
     border-radius: 10px;
     padding: 1rem;
     font-size: 1.5rem;
-    padding: 2.5rem 6rem;
+    padding: 2.5rem 9rem;
     color: black;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
     border: solid 3px transparent;
@@ -365,6 +365,7 @@ nav{
     background-origin: border-box;
     background-clip: content-box, border-box;
     box-shadow: 2px 1000px 1px #111111 inset;
+    margin-left: -50;
 }
 
 .services5{
@@ -374,7 +375,7 @@ nav{
     border-radius: 10px;
     padding: 1rem;
     font-size: 1.5rem;
-    padding: 2.5rem 6rem;
+    padding: 2.5rem 7.5rem;
     color: black;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
     border: solid 3px transparent;
@@ -390,7 +391,7 @@ nav{
     border-radius: 10px;
     padding: 1rem;
     font-size: 1.5rem;
-    padding: 2.5rem 6rem;
+    padding: 2.5rem 6.5rem;
     color: black;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
     border: solid 3px transparent;
@@ -413,4 +414,30 @@ nav{
     margin: 100px -200px;
     cursor: pointer;
     border-radius: 12px;   
+}   
+
+.arrow{
+    position: absolute;
+    width: 30px;
+    fill: rgba(255, 73, 0, 1);
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.services1 .arrow{
+    margin-left: 50px;
+}
+.services2 .arrow{
+    margin-left:90px;
+}
+.services3 .arrow{
+    margin-left: 45px;
+}
+.services4 .arrow{
+    margin-left: 90px;
+}
+.services5 .arrow{
+    margin-left: 65px;
+}
+.services6 .arrow{
+    margin-left: 50px;
 }
