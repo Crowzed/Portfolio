@@ -438,6 +438,129 @@ nav{
     width: 20vw;
     height: 4vw;
 }
+.email-img-text{
+    margin-top: -1vw;
+    padding-left: 1vw;
+    display: flex;
+    line-height: 1vw;
+}
+.email img{
+    height: 1.5vw;
+    padding-top: 2vw;
+    padding-right: 1vw;
+}
+.email{
+    background: black;
+    border: 1vw solid black;
+    border-radius: 10vw;
+    width: 20vw;
+    height: 4vw;
+    margin-top: 1vw;
+}
+.title-email{
+    font-weight: 100;
+}
+.address-img-text{
+    margin-top: -1vw;
+    padding-left: 1vw;
+    display: flex;
+    line-height: 1vw;
+}
+.address img {
+    height: 1.7vw;
+    padding-top: 2vw;
+    padding-right: 1vw;
+    filter: invert(1);
+}
+.address{
+    background: black;
+    border: 1vw solid black;
+    border-radius: 10vw;
+    width: 20vw;
+    height: 4vw;
+    margin-top: 1vw;
+}
+.address-title{
+    font-weight: 100;
+}
 footer{
     background-image: linear-gradient(black 0%, gray 70%);
+}
+.dropaline input{
+    background:black;
+    padding: 2vw;
+    padding-right: 8vw;
+    margin-right: 2vw;
+    color: white;
+    margin-top: 2vw;
+    border-radius: 1vw;
+}
+.dropaline select{
+    background:black;
+    padding: 2vw;
+    padding-right: 14.6vw;
+    margin-right: 2vw;
+    color: gray;
+    border-radius: 1vw;
+}
+.dropaline form .messageform{
+    padding-right: 31vw;
+    padding-bottom: 10vw;
+}
+
+.sosmed{
+    display: flex;
+}
+.sosmedbar{
+    background: rgba(255, 73, 0, 1);
+    width: 50vw;
+    height: 5vw;
+    border-radius: 1vw;
+    margin-left: -1vw;
+    position: absolute;
+}
+.submit button{
+    background: rgba(255, 73, 0, 1);
+    border: 1vw solid rgba(255, 73, 0, 1);
+    border-radius: 1vw;
+    width: 10vw;
+    height: 5vw;
+    margin-top: 6.5vw;
+    margin-left: 16vw;
+    color: white;
+    font-weight: 100;
+    font-size: 1vw;
+    cursor: pointer;
+}
+.findmeon h3{
+    margin-left: 15vw;
+    font-weight: 800;
+    font-size: 2vw;
+}
+.copyright{
+    margin-top: 3vw;
+    font-weight: 100;
+    padding-bottom: 1vw;
+}
+.sosmed-logo img{
+    margin-top: 1.3vw;
+    height: 2.5vw;
+    margin-left: 2vw;
+    position: relative;
+}
+.sosmed-logo{
+    margin-left: 13vw;
+}
+.experience{
+    position: absolute;
+    margin-left: -38vw;
+    margin-top: 1vw;
+    height: 30vw;
+}
+.clapperboard{
+    position: absolute;
+    height: 10vw;
+    margin-left: -40vw;
+    z-index: 100;
+    margin-top: 26vw;
 }
