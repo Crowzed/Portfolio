@@ -26,6 +26,7 @@ body {
     font-family: Poppins, Arial;
     white-space: pre-wrap;
     top: -10vw;
+    transition: 0.5s;
 
 }
 
@@ -51,6 +52,7 @@ nav{
     padding-top: 2vw;
     background-image: linear-gradient(gray, black);
     height: 10vw;
+    transition: 0.5s;
 }
 .navbox{
     position: absolute;
@@ -72,10 +74,12 @@ nav{
     height: 8vw;
     top: 0vw;
     left: 38vw;
+    transition: 0.5s;
 }
 .about-me {
     padding-left: 1.3vw;
     transform: translateY(3.2vw);
+    transition: 0.5s;
 }
 .mywork {
     position: absolute;
@@ -91,6 +95,7 @@ nav{
     cursor: pointer;
     border-radius: 1vw;
     margin-left: 3vw;
+    transition: 0.5s;
 }
 .cvdownload {
     background-color: white;
@@ -103,6 +108,7 @@ nav{
     cursor: pointer;
     border-radius: 1vw;
     margin-left: 10vw;
+    transition: 0.5s;
 }
 .cvdownload a{
     color: black;
@@ -117,6 +123,7 @@ nav{
     cursor: pointer;
     border-radius: 1vw;
     margin: -1.5vw 5vw;
+    transition: 0.5s;
 }
 
 .MrCentrico {
@@ -129,6 +136,7 @@ nav{
     font-family: Poppins, Arial;
     top: 20vw;
     left: 8vw;
+    transition: 0.5s;
 }
 .headerdesc {
     text-align: left;
@@ -138,6 +146,7 @@ nav{
     margin-left: 8vw;
     font-weight: 100;
     margin-top: 16%;
+    transition: 0.5s;
 }
 .muka{
     position: absolute;
