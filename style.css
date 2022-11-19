@@ -11,8 +11,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2vw;
 }
-html {
-  scroll-behavior: smooth;
+html{
+    scroll-behavior: smooth;
 }
 .logo {
     position: absolute;
